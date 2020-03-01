@@ -1,10 +1,11 @@
-name: Diamond Wall
-description: A wall made of diamond. The most extremely durable defensive block, but it costs a lot.
-type: Wall
-health: 1200
+name: DeflectorWall
+description: A wall made of diamond. The most extremely durable defensive block, but it costs a lot. Also, Deflects most bullets upon impact.
+type: DeflectorWall
+health: 1500
 size: 1
+hitTime: 20
 requirements: [
-  diamond/10
+  diamond/4
 ]
 category: defense
 research: phase-wall

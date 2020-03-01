@@ -9,7 +9,7 @@ outputItem: {
 size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 500
+craftTime: 350
 updateEffect: blastsmoke
 consumes: {
     power: 3
