@@ -19,9 +19,9 @@ consumes: {
             blast-compound/1
         ]
     }
-    
     liquid: {
-        cryofluid/6
+        liquid: cryofluid
+        amount: 6
     }
 }
 
