@@ -5,7 +5,7 @@ health: 1500
 size: 1
 maxDamageDeflect: 30
 requirements: [
-  diamond/4
+  diamond/6
 ]
 category: defense
 research: phase-wall
