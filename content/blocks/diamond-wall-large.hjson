@@ -1,0 +1,11 @@
+name: DeflectorWall
+description: A wall made of diamond. The most extremely durable defensive block, but it costs a lot. Also, Deflects most bullets upon impact.
+type: DeflectorWall
+health: 6000
+size: 2
+maxDamageDeflect: 120
+requirements: [
+  diamond/16
+]
+category: defense
+research: phase-wall
