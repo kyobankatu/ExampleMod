@@ -13,8 +13,8 @@ craftTime: 500
 updateEffect: blastsmoke
 consumes: {
     power: 3
-    items{
-        items[
+    items: {
+        items: [
             graphite/10
             blast-compound/1
         ]
