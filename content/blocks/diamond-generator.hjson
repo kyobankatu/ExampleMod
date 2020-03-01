@@ -3,11 +3,8 @@ name: "Diamond Generator"
 description: "Generate diamond from Graphite."
 liquidCapacity: 100
 outputItem: {
-    items{
-        items[
-            diamond/1
-        ]
-    }
+    item: diamond
+    amount: 1
 }
 size: 3
 hasPower: true
@@ -16,13 +13,12 @@ craftTime: 500
 updateEffect: blastsmoke
 consumes: {
     power: 2
-    items: {
-        items:[
-            graphite/10
-            blast-compound/1
-            cryofluid/6
-        ]
-    }
+    item: graphite
+    amount: 10
+    item: blast-compound
+    amount: 1
+    liquid: cryofluid
+    amount: 6
 }
 
 requirements: [
