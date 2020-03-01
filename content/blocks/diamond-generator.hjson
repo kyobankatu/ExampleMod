@@ -19,6 +19,7 @@ consumes: {
             blast-compound/1
         ]
     }
+    
     liquid: {
         cryofluid/6
     }
