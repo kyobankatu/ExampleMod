@@ -1,0 +1,10 @@
+name: Diamond Wall
+description: A wall made of diamond. The most extremely durable defensive block, but it costs a lot.
+type: Wall
+health: 1200
+size: 1
+requirements: [
+  diamond/10
+]
+category: defense
+research: phase-wall

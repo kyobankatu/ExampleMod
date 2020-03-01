@@ -1,6 +1,6 @@
-name: "example-mod"
+name: "Sample-Mod"
 displayName: "[orange]Example[gold] Mod" //what displays in the mod selection menu
-author: "Anuke"
+author: "kyobankatu"
 description: "A simple mod. Demonstrates how to make[accent] new ores[] and[orange] machines.[]"
 version: "3.1"
 minGameVersion: "103"
