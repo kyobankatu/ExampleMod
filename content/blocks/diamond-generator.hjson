@@ -13,12 +13,13 @@ craftTime: 500
 updateEffect: blastsmoke
 consumes: {
     power: 2
-    item: graphite
-    amount: 10
-    item: blast-compound
-    amount: 1
-    liquid: cryofluid
-    amount: 6
+    items: {
+        items:[
+            graphite/10
+            blast-compound/1
+            cryofluid/6
+        ]
+    }
 }
 
 requirements: [
