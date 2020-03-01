@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: "Diamond Generator"
+description: "Generate diamond from Graphite."
+liquidCapacity: 100
+outputItem: {
+    item: diamond
+    amount: 1
+}
+size: 3
+hasPower: true
+hasLiquids: true
+craftTime: 500
+updateEffect: blastsmoke
+consumes: {
+    power: 2
+    item: graphite
+    amount: 10
+    item: blast-compound
+    amount: 1
+    liquid: cryofluid
+    amount: 6
+}
+
+requirements: {
+    surge-alloy/100
+    metaglass/120
+    thorium/70
+    lead/80
+}
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
