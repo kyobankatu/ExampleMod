@@ -3,8 +3,11 @@ name: "Diamond Generator"
 description: "Generate diamond from Graphite."
 liquidCapacity: 100
 outputItem: {
-    item: diamond
-    amount: 1
+    items{
+        items[
+            diamond/1
+        ]
+    }
 }
 size: 3
 hasPower: true
