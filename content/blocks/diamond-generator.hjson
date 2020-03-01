@@ -21,12 +21,12 @@ consumes: {
     amount: 6
 }
 
-requirements: {
+requirements: [
     surge-alloy/100
     metaglass/120
     thorium/70
     lead/80
-}
+]
 category: crafting
 research: alloy-smelter
 idleSound: respawning
