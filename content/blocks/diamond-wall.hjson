@@ -1,4 +1,4 @@
-name: DeflectorWall
+name: Diamond Wall
 description: A wall made of diamond. The most extremely durable defensive block, but it costs a lot. Also, Deflects bullets upon impact.
 type: DeflectorWall
 health: 1500
