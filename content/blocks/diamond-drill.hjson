@@ -4,6 +4,8 @@ type: Drill
 size: 3
 tier: 6
 drillTime: 50
+liquidBoostIntensity: 3
+warmupSpeed: 0.1
 rotateSpeed: 4
 heatColor: 00ffff
 consumes: {
