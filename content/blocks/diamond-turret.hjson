@@ -1,16 +1,29 @@
 name: Diamond Turret
 description: Fire high-powered bullets by using diamonds. Also, it is sturdy.
-type: laserturret
 health: 4000
 size: 3
-range: 150
-shootDuration: 100
-firingMoveFract: 0.25
-powerUse: 10
-shootType: lancerLaser
+range: 250
+ammoUseEffect: shellEjectBig
+inaccuracy: 2
+shots: 5
+spread: 1
+rotatespeed: 1
+shootShake: 1
 shootSound: shot1
-coolantMultiplier: 5
-coolEffect: shoot
+
+ammo: {
+  graphite: {
+    speed: 15
+    damage: 50
+    splashDamageRadius: 2
+
+    bulletWidth: 14
+    bulletHeight: 18
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+  }
+}
 
 requirements: [
   diamond/200
