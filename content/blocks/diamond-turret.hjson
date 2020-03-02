@@ -6,7 +6,7 @@ size: 3
 range: 250
 ammoUseEffect: shellEjectBig
 inaccuracy: 2
-shots: 1
+shots: 5
 spread: 1
 rotatespeed: 1
 shootShake: 1
@@ -55,7 +55,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    reloadMultiplier: 10
+    reloadMultiplier: 1
   }
 }
 
