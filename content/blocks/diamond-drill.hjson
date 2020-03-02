@@ -3,9 +3,9 @@ description: Fastest and strongest drill, but it costs a lot.
 type: Drill
 size: 4
 tier: 6
-drillTime: 180
+drillTime: 150
 warmupSpeed: 0.1
-rotateSpeed: 6
+rotateSpeed: 10
 heatColor: 00ffff
 consumes: {
   power: 5
