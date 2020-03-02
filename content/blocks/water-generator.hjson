@@ -4,15 +4,16 @@ description: Generate water from ice.
 
 size: 1
 itemCapacity: 100
+liquidCapacity: 100
 hasPower: true
 hasItems: true
 hasLiquids: true
-craftTime: 40
+craftTime: 20
 updateEffect: freezing
 
 outputLiquid: {
     liquid: water
-    amount: 1
+    amount: 40
 }
 
 consumes: {
