@@ -7,7 +7,8 @@ itemDuration: 70
 
 consumes: {
     liquid: {
-        water/0.025
+        liquid: water
+        amount: 0.025
     }
 }
 
