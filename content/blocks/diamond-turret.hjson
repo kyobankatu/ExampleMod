@@ -25,7 +25,7 @@ ammo: {
   }
 
   metaglass: {
-    type: FlakBulletType
+    type: BasicBulletType
     speed: 30
     damage: 30
     splashDamage: 15
