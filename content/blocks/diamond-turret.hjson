@@ -6,7 +6,7 @@ size: 3
 range: 250
 ammoUseEffect: shellEjectBig
 inaccuracy: 4
-reload: 15
+reload: 20
 shots: 5
 spread: 1
 rotatespeed: 1
@@ -23,6 +23,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
+    reloadMultiplier: 2
   }
 
   metaglass: {
@@ -38,16 +39,17 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 3
-    reloadMultiplier: 1.2
+    reloadMultiplier: 2.4
   }
 
   blast-compound: {
     type: MissileBulletType
     lifetime: 1200
     speed: 3
+    shots: 5
     damage: 400
-    splashDamage: 50
-    splashDamageRadius: 50
+    splashDamage: 400
+    splashDamageRadius: 200
     homingPower: 10
     homingRange: 1000
     incendSpread: 60
