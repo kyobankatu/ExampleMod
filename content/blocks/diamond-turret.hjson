@@ -42,10 +42,12 @@ ammo: {
 
   blast-compound: {
     type: MissileBulletType
-    speed: 15
-    damage: 100
+    lifetime: 1200
+    speed: 3
+    damage: 400
     splashDamage: 50
-    splashDamageRadius: 34
+    splashDamageRadius: 50
+    incendSpread: 20
     homingPower: 10
     homingRange: 1000
     
@@ -53,7 +55,7 @@ ammo: {
     bulletHeight: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 3
+    reloadMultiplier: 10
   }
 }
 
