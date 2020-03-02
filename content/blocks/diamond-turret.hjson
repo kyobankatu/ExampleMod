@@ -55,7 +55,7 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    reloadMultiplier: 0.1
+    reloadMultiplier: 10
   }
 }
 
