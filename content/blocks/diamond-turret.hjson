@@ -47,7 +47,6 @@ ammo: {
     damage: 400
     splashDamage: 50
     splashDamageRadius: 50
-    incendSpread: 20
     homingPower: 10
     homingRange: 1000
     
