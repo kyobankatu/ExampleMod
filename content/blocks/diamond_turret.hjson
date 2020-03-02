@@ -1,5 +1,6 @@
 name: Diamond Turret
 description: Fire high-powered bullets by using diamonds. Also, it is sturdy.
+type: laserturret
 health: 4000
 size: 3
 reload: 40
@@ -21,5 +22,5 @@ requirements: [
   lead/325
   copper/300
 ]
-category: laserturret
+category: turret
 research: lancer
