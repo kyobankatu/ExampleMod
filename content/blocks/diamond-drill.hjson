@@ -3,12 +3,12 @@ description: Fastest and strongest drill, but it costs a lot.
 type: Drill
 size: 3
 tier: 6
-drillTime: 900
+drillTime: 150
 consumes: {
   power: 5
   liquid: {
     liquid: cryofluid
-    amount: 0.05
+    amount: 0.1
     booster: true
   }
 }
