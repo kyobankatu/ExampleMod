@@ -62,7 +62,7 @@ ammo: {
     speed: 3
     damage: 600
     splashDamage: 600
-    splashDamageRadius: 60
+    splashDamageRadius: 70
     homingPower: 10
     homingRange: 10000
     incendSpread: 60

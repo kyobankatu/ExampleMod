@@ -9,10 +9,10 @@ outputItem: {
 size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 500
+craftTime: 425
 updateEffect: blastsmoke
 consumes: {
-    power: 10
+    power: 8.5
     items: {
         items: [
             graphite/10
