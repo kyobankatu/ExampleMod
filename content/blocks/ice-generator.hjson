@@ -1,0 +1,33 @@
+type: GenericCrafter
+name: Ice Generator
+description: Generate ice from water.
+
+size: 1
+itemCapacity: 100
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 40
+updateEffect: freezing
+
+outputItem: {
+    liquid: ice
+    amount: 1
+}
+
+consumes: {
+    power: 0.5
+
+    liquid: {
+        liquid: water
+        amount: 0.025
+    }
+}
+
+requirements: [
+    titanium/20
+    silicon/20
+    lead/25
+]
+category: crafting
+research: water-generator

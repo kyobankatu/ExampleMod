@@ -1,0 +1,6 @@
+type: material
+name: Ice
+description: Water that can be transported by conveyor.
+hardness: 0
+cost: 1
+color: ffffff
