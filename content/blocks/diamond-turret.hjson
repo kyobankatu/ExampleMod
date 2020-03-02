@@ -16,7 +16,7 @@ shootSound: shot1
 ammo: {
   graphite: {
     speed: 15
-    damage: 75
+    damage: 100
 
     bulletWidth: 14
     bulletHeight: 18
@@ -30,7 +30,7 @@ ammo: {
     type: BasicBulletType
     speed: 30
     damage: 50
-    splashDamage: 25
+    splashDamage: 50
     splashDamageRadius: 40
     explodeRange: 30
 
@@ -39,19 +39,14 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 4
-    reloadMultiplier: 2.5
+    reloadMultiplier: 2.7
   }
 
   pyratite: {
     type: BasicBulletType
     speed: 15
-    damage: 75
-    status: burn: {
-        damageMultiplier: 0.6
-        armorMultiplier: 0.6
-        damage: 1.5
-        effect: burning
-    }
+    damage: 100
+    status: melting
 
     bulletWidth: 14
     bulletHeight: 18
@@ -79,7 +74,6 @@ ammo: {
     ammoMultiplier: 1
     reloadMultiplier: 0.1
   }
-}
 }
 
 requirements: [
