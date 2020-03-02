@@ -1,3 +1,4 @@
+type: ItemTurret
 name: Diamond Turret
 description: Fire high-powered bullets by using diamonds. Also, it is sturdy.
 health: 4000
