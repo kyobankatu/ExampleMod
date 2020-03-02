@@ -6,7 +6,7 @@ size: 3
 range: 250
 ammoUseEffect: shellEjectBig
 inaccuracy: 2
-shots: 5
+shots: 1
 spread: 1
 rotatespeed: 1
 shootShake: 1
@@ -49,7 +49,6 @@ ammo: {
     splashDamageRadius: 50
     homingPower: 10
     homingRange: 1000
-    shots: 1
     
     bulletWidth: 10
     bulletHeight: 14
