@@ -8,7 +8,7 @@ itemDuration: 10
 consumes: {
     items: {
         items: [
-            coal: 1
+            coal/1
         ]
     }
 }
