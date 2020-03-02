@@ -5,7 +5,8 @@ health: 4000
 size: 3
 range: 250
 ammoUseEffect: shellEjectBig
-inaccuracy: 2
+inaccuracy: 4
+reload: 15
 shots: 5
 spread: 1
 rotatespeed: 1
@@ -49,13 +50,14 @@ ammo: {
     splashDamageRadius: 50
     homingPower: 10
     homingRange: 1000
+    incendSpread: 60
     
     bulletWidth: 10
     bulletHeight: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
-    reloadMultiplier: 0.032
+    reloadMultiplier: 0.1
   }
 }
 
