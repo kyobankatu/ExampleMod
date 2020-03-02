@@ -16,6 +16,7 @@ ammo: {
   graphite: {
     speed: 15
     damage: 50
+    splashDamage: 25
     splashDamageRadius: 2
 
     bulletWidth: 14
@@ -23,6 +24,22 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
+  }
+
+  metaglass: {
+    type: FlakBulletType
+    speed: 15
+    damage: 30
+    splashDamage: 15
+    splashDamageRadius: 34
+    explodeRange: 30
+
+    bulletWidth: 14
+    bulletHeight: 18
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 3
+    reloadMultiplier: 0.8
   }
 }
 
