@@ -9,19 +9,19 @@ outputItem: {
 size: 3
 hasPower: true
 hasLiquids: true
-craftTime: 350
+craftTime: 500
 updateEffect: blastsmoke
 consumes: {
-    power: 8
+    power: 10
     items: {
         items: [
             graphite/10
-            blast-compound/1
+            blast-compound/3
         ]
     }
     liquid: {
         liquid: cryofluid
-        amount: 0.02
+        amount: 0.05
     }
 }
 
