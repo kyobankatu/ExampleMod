@@ -1,0 +1,27 @@
+name: Hydroelectric Generator
+description: Generate electricity from the flow of water.
+type: ItemLiquidGenerator
+size: 1
+rotate: true
+liquidCapacity: 100
+powerProduction: 1
+
+outputItem: {
+    liquid: water
+    amount: 0.025
+}
+
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.025
+    }
+}
+
+requirements: [
+    metaglass/10
+    lead/15
+]
+
+category: power
+research: power-node
