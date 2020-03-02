@@ -12,6 +12,8 @@ rotatespeed: 1
 shootShake: 1
 
 ammo: {
+  shootSound: shot1
+
   graphite: {
     speed: 15
     damage: 50
@@ -21,8 +23,6 @@ ammo: {
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 2
-
-    shootSound: shot1
   }
 
   metaglass: {
@@ -39,8 +39,6 @@ ammo: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 3
     reloadMultiplier: 0.8
-
-    shootSound: shot1
   }
 }
 
