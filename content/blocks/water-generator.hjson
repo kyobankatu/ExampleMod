@@ -12,7 +12,7 @@ updateEffect: freezing
 
 outputLiquid: {
     liquid: water
-    amount: 0.025
+    amount: 1
 }
 
 consumes: {
