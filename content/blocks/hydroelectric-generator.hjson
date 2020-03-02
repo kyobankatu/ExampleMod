@@ -3,13 +3,11 @@ description: Generate electricity from the flow of water.
 type: SingleTypeGenerator
 size: １
 powerProduction: 1
-itemDuration: 10
+itemDuration: 70
 
 consumes: {
-    items: {
-        items: [
-            coal/1
-        ]
+    liquid: {
+        water/0.025
     }
 }
 
