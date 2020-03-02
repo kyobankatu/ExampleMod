@@ -13,6 +13,13 @@ powerUse: 10
 shootType: lancerLaser
 shootSound: shot1
 
+ammo: {
+  power: {
+    type: lancerLaser
+    damage: 840
+  }
+}
+
 requirements: [
   diamond/200
   silicon/300
