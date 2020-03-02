@@ -80,6 +80,7 @@ ammo: {
     reloadMultiplier: 0.1
   }
 }
+}
 
 requirements: [
   diamond/200
