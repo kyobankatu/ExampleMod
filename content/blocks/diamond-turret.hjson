@@ -32,12 +32,42 @@ ammo: {
     splashDamageRadius: 34
     explodeRange: 30
 
-    bulletWidth: 14
-    bulletHeight: 18
+    bulletWidth: 10
+    bulletHeight: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
     ammoMultiplier: 3
     reloadMultiplier: 0.8
+  }
+
+  metaglass: {
+    type: flakbullettype
+    speed: 30
+    damage: 30
+    splashDamage: 15
+    splashDamageRadius: 50
+    explodeRange: 50
+
+    bulletWidth: 10
+    bulletHeight: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 3
+    reloadMultiplier: 0.8
+  }
+
+  blast-compound: {
+    type: bombbullettype
+    speed: 15
+    damage: 100
+    splashDamage: 50
+    splashDamageRadius: 34
+    
+    bulletWidth: 10
+    bulletHeight: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 3
   }
 }
 
