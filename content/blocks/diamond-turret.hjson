@@ -49,12 +49,12 @@ ammo: {
     splashDamageRadius: 50
     homingPower: 10
     homingRange: 1000
+    shots: 1
     
     bulletWidth: 10
     bulletHeight: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
-    ammoMultiplier: 0.1
     reloadMultiplier: 10
   }
 }
