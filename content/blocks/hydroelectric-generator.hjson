@@ -4,12 +4,9 @@ type: PowerGenerator
 size: 1
 rotate: true
 liquidCapacity: 100
+hasLiquids: true
 powerProduction: 1
-
-outputItem: {
-    liquid: water
-    amount: 0.025
-}
+itemDuration: 10
 
 consumes: {
     liquid: {
