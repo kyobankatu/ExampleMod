@@ -60,9 +60,9 @@ ammo: {
     type: MissileBulletType
     lifetime: 300
     speed: 3
-    damage: 400
-    splashDamage: 400
-    splashDamageRadius: 50
+    damage: 1000
+    splashDamage: 600
+    splashDamageRadius: 75
     homingPower: 10
     homingRange: 1000
     incendSpread: 60
