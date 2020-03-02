@@ -1,7 +1,7 @@
 name: Hydroelectric Generator
 description: Generate electricity from the flow of water.
 type: ImpactReactor
-size: 1
+size: 2
 liquidCapacity: 100
 hasLiquids: true
 powerProduction: 1
