@@ -46,8 +46,7 @@ ammo: {
     type: BasicBulletType
     speed: 15
     damage: 75
-    status: {
-        name: burn
+    status: burn: {
         damageMultiplier: 0.6
         armorMultiplier: 0.6
         damage: 1.5
