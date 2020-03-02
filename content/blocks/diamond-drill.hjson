@@ -3,7 +3,7 @@ description: Fastest and strongest drill, but it costs a lot.
 type: Drill
 size: 3
 tier: 6
-drillTime: 60
+drillTime: 90
 consumes: {
   power: 5
   liquid: {
