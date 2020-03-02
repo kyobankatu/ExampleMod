@@ -1,23 +1,14 @@
 name: Hydroelectric Generator
 description: Generate electricity from the flow of water.
-type: GenericCrafter
+type: SingleTypeGenerator
 size: １
-liquidCapacity: 100
-hasPower: true
-hasLiquids: true
-craftTime: 1
-
-outputLiquid: {
-    power: 1
-    liquid: water
-    amount: 0.025
-}
+powerProduction: 1
+itemDuration: 10
 
 consumes: {
-    liquid: {
-        liquid: water
-        amount: 0.025
-    }
+    items: [
+        coal: 1
+    ]
 }
 
 requirements: [
@@ -25,5 +16,5 @@ requirements: [
     lead/15
 ]
 
-category: crafting
+category: power
 research: power-node
