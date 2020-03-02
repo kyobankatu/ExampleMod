@@ -1,0 +1,12 @@
+type: Conveyor
+name: Throium conveyor
+description: The second fastest conveyor.
+requirements: [
+  titanium/2
+  copper/2
+  lead/3
+  thorium/3
+]
+category: distribution
+speed: 0.125
+research: titanium-conveyor
