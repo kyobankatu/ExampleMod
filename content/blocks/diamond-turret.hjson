@@ -46,11 +46,12 @@ ammo: {
     type: BasicBulletType
     speed: 15
     damage: 75
-    status: burn:　{
-      damageMultiplier: 0.6
-      armorMultiplier: 0.6
-      damage: 1.5
-      effect: burning
+    status: {
+        name: burn
+        damageMultiplier: 0.6
+        armorMultiplier: 0.6
+        damage: 1.5
+        effect: burning
     }
 
     bulletWidth: 14
