@@ -54,6 +54,7 @@ ammo: {
     bulletHeight: 14
     shootEffect: shootBig
     smokeEffect: shootBigSmoke
+    ammoMultiplier: 1
     reloadMultiplier: 10
   }
 }
