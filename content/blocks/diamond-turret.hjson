@@ -41,11 +41,13 @@ ammo: {
   }
 
   blast-compound: {
-    type: BombBulletType
+    type: MissileBulletType
     speed: 15
     damage: 100
     splashDamage: 50
     splashDamageRadius: 34
+    homingPower: 10
+    homingRange: 1000
     
     bulletWidth: 10
     bulletHeight: 14
