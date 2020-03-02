@@ -10,10 +10,9 @@ shots: 5
 spread: 1
 rotatespeed: 1
 shootShake: 1
+shootSound: shot1
 
 ammo: {
-  shootSound: shot1
-
   graphite: {
     speed: 15
     damage: 50
