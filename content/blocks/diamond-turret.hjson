@@ -3,22 +3,14 @@ description: Fire high-powered bullets by using diamonds. Also, it is sturdy.
 type: laserturret
 health: 4000
 size: 3
-reload: 40
 range: 150
-inaccuracy: 30
-rotatespeed: 1
 shootDuration: 100
 firingMoveFract: 0.25
 powerUse: 10
 shootType: lancerLaser
 shootSound: shot1
-
-ammo: {
-  power: {
-    type: lancerLaser
-    damage: 840
-  }
-}
+coolantMultiplier: 5
+coolEffect: shoot
 
 requirements: [
   diamond/200
