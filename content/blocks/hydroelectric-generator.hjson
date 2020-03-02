@@ -6,9 +6,11 @@ powerProduction: 1
 itemDuration: 10
 
 consumes: {
-    items: [
-        coal: 1
-    ]
+    items: {
+        items: [
+            coal: 1
+        ]
+    }
 }
 
 requirements: [
