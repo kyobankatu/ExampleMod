@@ -11,7 +11,7 @@ craftTime: 40
 updateEffect: freezing
 
 outputItem: {
-    liquid: ice
+    item: ice
     amount: 1
 }
 
