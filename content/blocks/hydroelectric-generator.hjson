@@ -2,7 +2,6 @@ name: Hydroelectric Generator
 description: Generate electricity from the flow of water.
 type: PowerGenerator
 size: 1
-rotate: true
 liquidCapacity: 100
 hasLiquids: true
 powerProduction: 1
