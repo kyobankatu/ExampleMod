@@ -1,6 +1,6 @@
 name: "Sample-Mod"
-displayName: "[orange]Sample[gold] Mod" //what displays in the mod selection menu
+displayName: "[cyan]Sample[lime] Mod" //what displays in the mod selection menu
 author: "kyobankatu"
-description: "I refer to Anuke's [orange]Example [gold]Mod to learn how to add items, blocks, etc."
+description: "I refer to Anuke's [orange]Example [gold]Mod [white]to learn how to add items, blocks, etc."
 version: "3.1"
 minGameVersion: "103"

@@ -12,7 +12,7 @@ hasLiquids: true
 craftTime: 350
 updateEffect: blastsmoke
 consumes: {
-    power: 3
+    power: 8
     items: {
         items: [
             graphite/10

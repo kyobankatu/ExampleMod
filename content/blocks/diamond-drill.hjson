@@ -1,0 +1,22 @@
+name: Diamond Drill
+description: Fastest and strongest drill, but it costs a lot.
+type: Drill
+size: 3
+tier: 6
+drillTime: 900
+consumes: {
+  power: 5
+  liquid: {
+    liquid: cryofluid
+    amount: 0.05
+    booster: true
+  }
+}
+requirements: [
+  diamond/10
+  thorium/50
+  silicon/60
+  copper/80
+]
+category: production
+research: airblast-drill
