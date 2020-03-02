@@ -44,12 +44,11 @@ ammo: {
 
   blast-compound: {
     type: MissileBulletType
-    lifetime: 1200
+    lifetime: 300
     speed: 3
-    shots: 5
     damage: 400
     splashDamage: 400
-    splashDamageRadius: 200
+    splashDamageRadius: 50
     homingPower: 10
     homingRange: 1000
     incendSpread: 60
