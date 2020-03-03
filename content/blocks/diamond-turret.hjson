@@ -3,7 +3,7 @@ name: Diamond Turret
 description: Fire high-powered bullets by using diamonds. Also, it is sturdy.
 health: 4000
 size: 3
-range: 250
+range: 300
 ammoUseEffect: shellEjectBig
 inaccuracy: 4
 reload: 20
