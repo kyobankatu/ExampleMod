@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Nitrogen Cryogenic Air Separator
-description: Generates liquid nitrogen.
+name: Argon Cryogenic Air Separator
+description: Generates liquid argon.
 
 size: 3
 hasPower: true
@@ -10,8 +10,8 @@ craftTime: 30
 updateEffect: freezing
 
 outputLiquid: {
-    liquid: liquid-nitrogen
-    amount: 12
+    liquid: liquid-argon
+    amount: 1
 }
 
 consumes: {
