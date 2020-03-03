@@ -10,11 +10,9 @@ craftTime: 30
 updateEffect: freezing
 
 results: {
-    items: [
-        copper/1
-        lead/1
-        coal/1
-    ]
+    copper/1
+    lead/1
+    coal/1
 }
 
 consumes: {
