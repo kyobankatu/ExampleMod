@@ -10,6 +10,7 @@ reload: 20
 shots: 5
 spread: 1
 rotatespeed: 1
+restitution: 1
 shootShake: 1
 shootSound: shot
 
@@ -31,7 +32,7 @@ ammo: {
     speed: 15
     damage: 50
     splashDamage: 50
-    splashDamageRadius: 100
+    splashDamageRadius: 70
 
     bulletWidth: 10
     bulletHeight: 14
@@ -45,7 +46,7 @@ ammo: {
     speed: 15
     damage: 50
     splashDamage: 50
-    splashDamageRadius: 40
+    splashDamageRadius: 30
 
     bulletWidth: 10
     bulletHeight: 14
