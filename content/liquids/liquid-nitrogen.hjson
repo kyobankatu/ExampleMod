@@ -2,6 +2,6 @@ name: Liquid Nitrogen
 description: Liquid nitrogen. Absorbs more heat than Cryofluid.
 temperature: 0
 viscosity: 0.4
-heatCapacity: 1.2
+heatCapacity: 1.4
 effect: freezing
 color: bababa
