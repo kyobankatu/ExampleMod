@@ -34,4 +34,4 @@ requirements: [
 category: crafting
 research: naphtha-distillation-tower
 idleSound: press
-idleSoundVolume: 0.5
+idleSoundVolume: 5

@@ -32,4 +32,4 @@ requirements: [
 category: crafting
 research: spore-press
 idleSound: fire1
-idleSoundVolume: 0.5
+idleSoundVolume: 5
