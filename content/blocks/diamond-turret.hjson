@@ -31,13 +31,13 @@ ammo: {
     speed: 15
     damage: 50
     splashDamage: 50
-    splashDamageRadius: 150
+    splashDamageRadius: 100
 
     bulletWidth: 10
     bulletHeight: 14
     hitEffect: plasticExplosion
     ammoMultiplier: 4
-    reloadMultiplier: 2.7
+    reloadMultiplier: 2.5
   }
 
   metaglass: {
