@@ -9,11 +9,11 @@ liquidCapacity: 100
 craftTime: 30
 updateEffect: freezing
 
-results: {
+results: [
     copper/1
     lead/1
     coal/1
-}
+]
 
 consumes: {
     power: 2.2
