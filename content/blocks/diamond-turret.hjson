@@ -28,15 +28,14 @@ ammo: {
 
   plastic: {
     type: BombBulletType
-    speed: 3
+    speed: 15
     damage: 50
     splashDamage: 50
-    splashDamageRadius: 40
+    splashDamageRadius: 150
 
     bulletWidth: 10
     bulletHeight: 14
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+    hitEffect: plasticExplosion
     ammoMultiplier: 4
     reloadMultiplier: 2.7
   }
