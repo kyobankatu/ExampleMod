@@ -2,5 +2,6 @@ name: Liquid Argon
 description: Liquid argon.
 temperature: 0.1
 viscosity: 0.4
+heatCapacity: 0.9
 effect: freezing
 color: fcff98
