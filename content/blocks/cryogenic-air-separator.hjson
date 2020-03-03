@@ -1,0 +1,33 @@
+type: Separator
+name: Cryogenic Air Separator
+description: Generates liquid oxygen, nitrogen and argon.
+
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 100
+craftTime: 30
+updateEffect: freezing
+
+results: {
+    items: {
+        items: [
+            copper/1
+            lead/1
+            coal/1
+        ]
+    }
+}
+
+consumes: {
+    power: 2.2
+}
+
+requirements: [
+    metaglass/100
+    graphite/150
+    silicon/150
+    lead/100
+]
+category: crafting
+research: cryofluidmixer

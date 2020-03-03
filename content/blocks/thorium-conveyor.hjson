@@ -1,6 +1,7 @@
 type: Conveyor
 name: Throium conveyor
-description: The second fastest conveyor.
+description: The second fastest conveyor, but it is very brittle.
+health: 30
 requirements: [
   titanium/2
   copper/2

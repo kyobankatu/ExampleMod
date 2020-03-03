@@ -92,7 +92,7 @@ ammo: {
 requirements: [
   diamond/200
   silicon/300
-  metaglass/300
+  plastic/300
   graphite/300
   lead/325
   copper/300

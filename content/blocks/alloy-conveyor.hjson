@@ -1,6 +1,7 @@
 type: Conveyor
 name: Alloy conveyor
 description: Fastest conveyor.
+health: 320
 requirements: [
   titanium/2
   copper/2
