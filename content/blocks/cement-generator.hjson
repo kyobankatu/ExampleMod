@@ -1,0 +1,43 @@
+type: GenericCrafter
+name: Cement Generator
+description: Generate cement from clay and slag.
+
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 20
+itemCapacity: 20
+craftTime: 30
+updateEffect: producesmoke
+
+outputItem: {
+    item: cement
+    amount: 1
+}
+
+consumes: {
+    power: 0.7
+
+    items: {
+        items: [
+            clay/1
+            coal/1
+        ]
+    }
+
+    liquid: {
+        liquid: slag
+        amount: 0.05
+    }
+}
+
+requirements: [
+    silicon/70
+    lead/50
+    copper/50
+]
+category: crafting
+research: clay-generator
+idleSound: press
+idleSoundVolume: 1

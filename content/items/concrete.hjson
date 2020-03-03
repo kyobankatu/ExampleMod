@@ -1,0 +1,6 @@
+type: material
+name: Concrete
+description: Concrete.
+hardness: 0
+cost: 1
+color: 666666

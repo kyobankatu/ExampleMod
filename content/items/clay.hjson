@@ -1,0 +1,6 @@
+type: resource
+name: Clay
+description: Clay.
+hardness: 0
+cost: 1
+color: bfbfbf

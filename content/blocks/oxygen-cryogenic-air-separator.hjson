@@ -19,10 +19,10 @@ consumes: {
 }
 
 requirements: [
-    metaglass/100
+    plastic/150
     graphite/150
     silicon/150
     lead/100
 ]
 category: crafting
-research: cryofluidmixer
+research: argon-cryogenic-air-separator

@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Clay Generator
+description: Generate clay from sand and water.
+
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 20
+itemCapacity: 20
+craftTime: 30
+
+outputItem: {
+    item: clay
+    amount: 1
+}
+
+consumes: {
+    power: 0.5
+
+    items: {
+        items: [
+            sand/3
+        ]
+    }
+
+    liquid: {
+        liquid: water
+        amount: 0.04
+    }
+}
+
+requirements: [
+    silicon/30
+    lead/20
+]
+category: crafting
+research: melter
+idleSound: press
+idleSoundVolume: 1
