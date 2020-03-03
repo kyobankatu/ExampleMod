@@ -7,6 +7,12 @@ drillTime: 150
 warmupSpeed: 0.1
 rotateSpeed: 10
 heatColor: 00ffff
+
+outputItem: {
+  item: ice
+  amount: 1
+}
+
 consumes: {
   power: 5
   liquid: {
