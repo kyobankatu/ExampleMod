@@ -9,7 +9,7 @@ inaccuracy: 4
 reload: 20
 shots: 5
 spread: 1
-rotatespeed: 1
+rotatespeed: 0.2
 restitution: 1
 shootShake: 1
 shootSound: shot
