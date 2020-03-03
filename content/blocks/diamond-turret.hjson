@@ -9,8 +9,7 @@ inaccuracy: 4
 reload: 20
 shots: 5
 spread: 1
-rotatespeed: 0.2
-restitution: 1
+rotatespeed: 1
 shootShake: 1
 shootSound: shot
 
@@ -30,15 +29,16 @@ ammo: {
   plastic: {
     type: BombBulletType
     speed: 15
-    damage: 50
-    splashDamage: 50
-    splashDamageRadius: 70
+    damage: 100
+    splashDamage: 100
+    splashDamageRadius: 125
+    incendSpread: 30
 
     bulletWidth: 10
     bulletHeight: 14
     hitEffect: plasticExplosion
     ammoMultiplier: 4
-    reloadMultiplier: 2.5
+    reloadMultiplier: 1
   }
 
   metaglass: {
