@@ -10,7 +10,8 @@ craftTime: 30
 updateEffect: freezing
 
 outputLiquid: {
-    liquid-nitrogen/1
+    liquid: liquid-nitrogen
+    amount: 1
 }
 
 consumes: {
