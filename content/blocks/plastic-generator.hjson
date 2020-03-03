@@ -21,7 +21,7 @@ consumes: {
 
     liquid: {
         liquid: naphtha
-        amount: 0.3
+        amount: 0.15
     }
 }
 
