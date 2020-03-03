@@ -26,13 +26,28 @@ ammo: {
     reloadMultiplier: 2.5
   }
 
+  plastic: {
+    type: FlakBulletType
+    speed: 30
+    damage: 50
+    splashDamage: 50
+    splashDamageRadius: 40
+    explodeRange: 40
+
+    bulletWidth: 10
+    bulletHeight: 14
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 4
+    reloadMultiplier: 2.7
+  }
+
   metaglass: {
     type: BasicBulletType
     speed: 30
     damage: 50
     splashDamage: 50
     splashDamageRadius: 40
-    explodeRange: 30
 
     bulletWidth: 10
     bulletHeight: 14
