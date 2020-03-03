@@ -1,0 +1,6 @@
+name: Liquid Oxygen
+description: Liquid oxygen.
+temperature: 0.1
+viscosity: 0.4
+effect: freezing
+color: 71ef58
