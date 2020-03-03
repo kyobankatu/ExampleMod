@@ -32,4 +32,4 @@ requirements: [
     lead/25
 ]
 category: crafting
-research: melter
+research: cryofluid-mixer

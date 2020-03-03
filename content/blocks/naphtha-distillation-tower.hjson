@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Naphtha Distillation Tower
+description: Generate naptha from oil.
+
+size: 2
+hasPower: true
+hasLiquids: true
+liquidCapacity: 100
+craftTime: 30
+updateEffect: melting
+
+outputLiquid: {
+    liquid: naphtha
+    amount: 10
+}
+
+consumes: {
+    power: 2.2
+
+    liquid: {
+        liquid: oil
+        amount: 0.3
+    }
+}
+
+requirements: [
+    metaglass/120
+    graphite/120
+    silicon/120
+    lead/100
+]
+category: crafting
+research: spore-press
+idleSound: fire1
+idleSoundVolume: 0.5

@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Plastic Generator
+description: Generate plastic from naphtha.
+
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 100
+itemCapacity: 20
+craftTime: 60
+updateEffect: melting
+
+outputItem: {
+    item: plastic
+    amount: 1
+}
+
+consumes: {
+    power: 2.2
+
+    liquid: {
+        liquid: naphtha
+        amount: 0.3
+    }
+}
+
+requirements: [
+    metaglass/100
+    graphite/150
+    silicon/150
+    lead/100
+]
+category: crafting
+research: naphtha-disitillation-tower
+idleSound: press
+idleSoundVolume: 0.5
