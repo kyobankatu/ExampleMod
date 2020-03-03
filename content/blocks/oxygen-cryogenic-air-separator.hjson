@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Nitrogen Cryogenic Air Separator
+description: Generates liquid nitrogen.
+
+size: 3
+hasPower: true
+hasLiquids: true
+liquidCapacity: 100
+craftTime: 30
+updateEffect: freezing
+
+outputLiquid: {
+    liquid: liquid-nitrogen
+    amount: 12
+}
+
+consumes: {
+    power: 2.2
+}
+
+requirements: [
+    metaglass/100
+    graphite/150
+    silicon/150
+    lead/100
+]
+category: crafting
+research: cryofluidmixer
