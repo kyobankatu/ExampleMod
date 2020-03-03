@@ -32,6 +32,6 @@ requirements: [
     lead/100
 ]
 category: crafting
-research: naphtha-disitillation-tower
+research: naphtha-distillation-tower
 idleSound: press
 idleSoundVolume: 0.5

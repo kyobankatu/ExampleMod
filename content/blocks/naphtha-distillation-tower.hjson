@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Naphtha Distillation Tower
+name: Naphtha distillation tower
 description: Generate naptha from oil.
 
 size: 2
