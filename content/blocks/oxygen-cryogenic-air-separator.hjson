@@ -20,10 +20,10 @@ consumes: {
 }
 
 requirements: [
-    plastic/150
-    graphite/150
+    metaglass/100
+    brick/150
+    cement/100
     silicon/150
-    lead/100
 ]
 category: crafting
 research: argon-cryogenic-air-separator

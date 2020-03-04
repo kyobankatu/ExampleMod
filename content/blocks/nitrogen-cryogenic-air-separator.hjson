@@ -20,10 +20,11 @@ consumes: {
 }
 
 requirements: [
-    plastic/150
+    plastic/100
+    brick/150
     cement/100
-    graphite/150
-    lead/100
+    silicon/150
+    titanium/100
 ]
 category: crafting
 research: oxygen-cryogenic-air-separator

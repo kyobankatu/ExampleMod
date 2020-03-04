@@ -1,0 +1,12 @@
+name: Large Brick Wall
+description: A wall made of brick. Although it is weak per one square, there is sturdy by gathering a lot.
+type: DeflectorWall
+health: 3200
+size: 4
+solid: true
+requirements: [
+  brick/96
+  cement/96
+]
+category: defense
+research: brick-wall
