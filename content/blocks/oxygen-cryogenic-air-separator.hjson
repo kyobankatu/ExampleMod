@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Oxygen Cryogenic Air Separator
 description: Generates liquid oxygen.
 
+health: 100
 size: 3
 hasPower: true
 hasLiquids: true

@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Nitrogen Cryogenic Air Separator
 description: Generates liquid nitrogen.
 
+health: 160
 size: 3
 hasPower: true
 hasLiquids: true
@@ -20,7 +21,7 @@ consumes: {
 
 requirements: [
     plastic/150
-    concrete/150
+    cement/100
     graphite/150
     lead/100
 ]

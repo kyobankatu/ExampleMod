@@ -1,40 +1,31 @@
 type: GenericCrafter
-name: Cement Generator
-description: Generate cement from clay and slag.
+name: Brick Generator
+description: Generate brick from clay.
 
-size: 3
+size: 2
 hasPower: true
-hasLiquids: true
 hasItems: true
-liquidCapacity: 20
 itemCapacity: 20
-craftTime: 30
-updateEffect: producesmoke
+craftTime: 60
+updateEffect: fireSmoke
 
 outputItem: {
-    item: cement
+    item: brick
     amount: 1
 }
 
 consumes: {
-    power: 1.2
-
     items: {
         items: [
             clay/1
             coal/1
         ]
     }
-
-    liquid: {
-        liquid: slag
-        amount: 0.05
-    }
 }
 
 requirements: [
-    silicon/70
-    lead/50
+    cement/50
+    silicon/40
     copper/50
 ]
 category: crafting

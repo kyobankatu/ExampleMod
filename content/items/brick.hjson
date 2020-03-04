@@ -1,0 +1,6 @@
+type: material
+name: Brick
+description: Brick.
+hardness: 0
+cost: 2
+color: b75a40
