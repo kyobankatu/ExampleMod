@@ -25,9 +25,9 @@ consumes: {
 
 requirements: [
     metaglass/120
-    graphite/120
+    brick/120
     silicon/120
-    lead/100
+    cement/100
 ]
 category: crafting
 research: spore-press
