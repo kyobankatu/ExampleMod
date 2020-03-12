@@ -5,20 +5,22 @@ speed: 0.5
 flying: true
 health: 1000
 engineOffset: 5.5
-attackLength: 150
 range: 1000
 weapon: {
   name: exploder
-  reload: 90
+  reload: 10
   targetDistance: 1
   bullet: {
     type: MissileBulletType
     lifetime: 90
-    speed: 5
+    speed: 1
     damage: 300
+    splashDamage: 100
+    splashDamageRadius: 30
     homingPower: 1
     homingRange: 50
     hitEffect: blastExplosion
     hitShake: 1
+    alternate: true
   }
 }
