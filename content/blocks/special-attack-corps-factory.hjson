@@ -1,0 +1,24 @@
+name: Special Attack Corps Factory
+description: Makes special attack corps units.
+type: UnitFactory
+unitType: special-attack-corps
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/40
+      titanium/20
+      copper/40
+    ]
+  }
+}
+category: units
+research: wraith-factory
+requirements: [
+  silicon/40
+  titanium/40
+  plastanium/60
+  lead/40
+]

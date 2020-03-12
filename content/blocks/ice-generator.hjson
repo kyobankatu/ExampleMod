@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Ice Generator
-description: Generate ice from water.
+description: Generate ice from cryofluid.
 
 size: 1
 itemCapacity: 100
@@ -20,7 +20,7 @@ consumes: {
     power: 0.5
 
     liquid: {
-        liquid: water
+        liquid: cryofluid
         amount: 1
     }
 }
@@ -31,4 +31,4 @@ requirements: [
     lead/25
 ]
 category: crafting
-research: water-generator
+research: cryofluid-generator

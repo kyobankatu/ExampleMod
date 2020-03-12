@@ -22,7 +22,7 @@ consumes: {
 requirements: [
     plastic/100
     brick/150
-    cement/100
+    cement/150
     silicon/150
     titanium/100
 ]

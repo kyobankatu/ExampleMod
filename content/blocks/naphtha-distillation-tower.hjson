@@ -27,7 +27,7 @@ requirements: [
     metaglass/120
     brick/120
     silicon/120
-    cement/100
+    cement/120
 ]
 category: crafting
 research: spore-press

@@ -26,7 +26,7 @@ consumes: {
 }
 
 requirements: [
-    surge-alloy/100
+    surge-alloy/120
     metaglass/120
     thorium/70
     lead/80

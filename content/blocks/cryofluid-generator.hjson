@@ -1,6 +1,6 @@
 type: GenericCrafter
-name: Water Generator
-description: Generate water from ice.
+name: Cryofluid Generator
+description: Generate cryofluid from ice.
 
 size: 1
 itemCapacity: 100
@@ -12,7 +12,7 @@ craftTime: 20
 updateEffect: freezing
 
 outputLiquid: {
-    liquid: water
+    liquid: cryofluid
     amount: 40
 }
 
