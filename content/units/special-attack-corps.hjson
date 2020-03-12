@@ -5,12 +5,12 @@ speed: 0.5
 flying: true
 health: 1000
 engineOffset: 5.5
-attackLength: 0
+attackLength: 1
 range: 1000
 weapon: {
   name: exploder
-  reload: 1
-  targetDistance: 0
+  reload: 60
+  targetDistance: 1
   bullet: {
     damage: 1200
     hitEffect: blastExplosion
