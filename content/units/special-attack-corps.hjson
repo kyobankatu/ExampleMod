@@ -6,6 +6,7 @@ flying: true
 health: 1000
 engineOffset: 5.5
 attackLength: 1000
+range: 1000
 rotatespeed: 1
 baseRotateSpeed: 1
 weapon: {
