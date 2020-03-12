@@ -1,6 +1,6 @@
 type: flyingUnit
-name: Special attack corps
-description: Generally annoying and flashy.
+name: Missile Fighter
+description: Shoots a missile and deals area damage.
 speed: 0.5
 flying: true
 health: 1000
@@ -18,7 +18,7 @@ weapon: {
     type: MissileBulletType
     lifetime: 90
     speed: 1
-    damage: 300
+    damage: 200
     splashDamage: 100
     splashDamageRadius: 30
     homingPower: 1
