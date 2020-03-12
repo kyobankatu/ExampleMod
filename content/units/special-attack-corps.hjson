@@ -5,7 +5,7 @@ speed: 0.5
 flying: true
 health: 1000
 engineOffset: 5.5
-attackLength: 1000
+attackLength: 30
 range: 1000
 rotatespeed: 1
 baseRotateSpeed: 1
