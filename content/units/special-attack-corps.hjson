@@ -5,10 +5,8 @@ speed: 0.5
 flying: true
 health: 1000
 engineOffset: 5.5
-attackLength: 30
+attackLength: 200
 range: 1000
-rotatespeed: 1
-baseRotateSpeed: 1
 weapon: {
   name: exploder
   bullet: {
