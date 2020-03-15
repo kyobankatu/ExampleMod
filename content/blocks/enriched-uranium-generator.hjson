@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: Enriched Uranium Generator
+description: After extracting uranium from thorium, increase the concentration of uranium-235 by centrifugation.
+
+size: 3
+hasPower: true
+hasItems: true
+itemCapacity: 20
+craftTime: 600
+updateEffect: melting
+
+outputItem: {
+    item: uranium
+    amount: 1
+}
+
+consumes: {
+    power: 6
+
+    items: {
+        items: [
+            thorium/20
+        ]
+    }
+}
+
+requirements: [
+    metaglass/100
+    graphite/150
+    silicon/150
+    lead/100
+]
+category: crafting
+research: phase-weaver

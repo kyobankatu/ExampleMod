@@ -1,11 +1,14 @@
 type: NuclearReactor
 name: Uranium Reactor
-description: Generate plastic from naphtha.
+description: Produces a lot of electricity by burning uranium. However, if not cooled enough, a huge explosion will occur.
 
 size: 3
-explosionRadius: 80
-explosionDamage: 2500
+itemDuration: 1200
+explosionRadius: 120
+explosionDamage: 3000
 powerProduction: 70
+itemCapacity: 1
+liquidCapacity: 1200
 
 consumes: {
     items: {
@@ -16,7 +19,7 @@ consumes: {
 
     liquid: {
         liquid: cryofluid
-        amount: 0.1
+        amount: 4
     }
 }
 
