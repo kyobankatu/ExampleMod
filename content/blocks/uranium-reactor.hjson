@@ -3,9 +3,10 @@ name: Uranium Reactor
 description: Produces a lot of electricity by burning uranium. However, if not cooled enough, a huge explosion will occur.
 
 size: 3
+health: 900
 itemDuration: 1200
-explosionRadius: 120
-explosionDamage: 3000
+explosionRadius: 5000
+explosionDamage: 3200
 powerProduction: 70
 itemCapacity: 1
 liquidCapacity: 1200
@@ -24,10 +25,10 @@ consumes: {
 }
 
 requirements: [
-    metaglass/100
-    graphite/150
-    silicon/150
-    lead/100
+    lead/800
+    thorium/100
+    silicon/100
+    metaglass/50
 ]
 
 category: power

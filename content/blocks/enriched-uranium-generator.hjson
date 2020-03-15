@@ -3,6 +3,7 @@ name: Enriched Uranium Generator
 description: After extracting uranium from thorium, increase the concentration of uranium-235 by centrifugation.
 
 size: 3
+health: 120
 hasPower: true
 hasItems: true
 itemCapacity: 20
@@ -25,10 +26,10 @@ consumes: {
 }
 
 requirements: [
-    metaglass/100
-    graphite/150
-    silicon/150
-    lead/100
+    lead/300
+    silicon/100
+    titanium/100
+    metaglass/50
 ]
 category: crafting
 research: phase-weaver
