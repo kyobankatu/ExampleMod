@@ -2,5 +2,5 @@ type: material
 name: Diamond
 description: A rare resource.
 hardness: 0
-cost: 6
+cost: 12
 color: b9f2ff

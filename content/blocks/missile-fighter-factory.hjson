@@ -17,6 +17,7 @@ consumes: {
 category: units
 research: wraith-factory
 requirements: [
+  plastic/50
   silicon/40
   titanium/30
   lead/30

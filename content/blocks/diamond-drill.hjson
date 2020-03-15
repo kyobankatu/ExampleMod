@@ -11,14 +11,15 @@ heatColor: 00ffff
 consumes: {
   power: 5
   liquid: {
-    liquid: cryofluid
-    amount: 0.1
+    liquid: liquid-nitrogen
+    amount: 0.2
     booster: true
     optional: true
   }
 }
 requirements: [
-  diamond/10
+  diamond/30
+  plastic/50
   thorium/50
   silicon/60
   copper/80

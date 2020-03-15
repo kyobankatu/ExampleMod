@@ -90,7 +90,7 @@ ammo: {
 }
 
 requirements: [
-  diamond/200
+  diamond/300
   silicon/300
   plastic/300
   graphite/300
