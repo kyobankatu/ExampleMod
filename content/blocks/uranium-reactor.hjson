@@ -1,11 +1,11 @@
 type: NuclearReactor
 name: Uranium Reactor
-description: Produces a lot of electricity by burning uranium. However, if not cooled enough, a huge explosion will occur.
+description: Produces a lot of electricity by burning uranium. However, if not cooled enough, will explode violently.
 
 size: 3
 health: 900
 itemDuration: 1200
-explosionRadius: 200
+explosionRadius: 120
 explosionDamage: 100000
 powerProduction: 70
 itemCapacity: 1
