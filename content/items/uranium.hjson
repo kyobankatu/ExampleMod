@@ -1,0 +1,8 @@
+type: material
+name: Uranium
+description: It is the first radioactive element to be discovered and is the natural element with the highest atomic number.
+hardness: 0
+cost: 1
+explosiveness: 1
+radioactivity: 2
+color: 05f903
