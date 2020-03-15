@@ -1,0 +1,31 @@
+type: NuclearReactor
+name: Uranium Reactor
+description: Generate plastic from naphtha.
+
+size: 3
+explosionRadius: 80
+explosionDamage: 2500
+powerProduction: 70
+
+consumes: {
+    items: {
+        items: [
+            uranium/1
+        ]
+    }
+
+    liquid: {
+        liquid: cryofluid
+        amount: 0.1
+    }
+}
+
+requirements: [
+    metaglass/100
+    graphite/150
+    silicon/150
+    lead/100
+]
+
+category: power
+research: differential-generator
