@@ -5,8 +5,8 @@ description: Produces a lot of electricity by burning uranium. However, if not c
 size: 3
 health: 900
 itemDuration: 1200
-explosionRadius: 5000
-explosionDamage: 3200
+explosionRadius: 10
+explosionDamage: 3900
 powerProduction: 70
 itemCapacity: 1
 liquidCapacity: 1200
