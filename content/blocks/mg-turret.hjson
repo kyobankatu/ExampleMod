@@ -14,15 +14,13 @@ shootSound: shoot
 
 ammo: {
   graphite: {
-    speed: 15
-    damage: 100
+    speed: 30
+    damage: 50
 
-    bulletWidth: 14
-    bulletHeight: 18
-    shootEffect: shootBig
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 2
-    reloadMultiplier: 2.5
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    ammoMultiplier: 10
   }
 }
 
