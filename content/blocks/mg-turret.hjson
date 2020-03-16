@@ -1,0 +1,38 @@
+type: ItemTurret
+name: MG Turret
+description: Fire bullets intermittently, causing massive damage.
+health: 1200
+size: 2
+range: 160
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+reload: 1
+shots: 1
+rotatespeed: 5
+recoil: 5
+shootSound: shoot
+
+ammo: {
+  graphite: {
+    speed: 15
+    damage: 100
+
+    bulletWidth: 14
+    bulletHeight: 18
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 2.5
+  }
+}
+
+requirements: [
+  diamond/300
+  silicon/300
+  plastic/300
+  graphite/300
+  lead/325
+  copper/300
+]
+category: turret
+research: spectre

@@ -45,7 +45,7 @@ ammo: {
     speed: 15
     damage: 50
     splashDamage: 50
-    splashDamageRadius: 25
+    splashDamageRadius: 24
 
     bulletWidth: 10
     bulletHeight: 14
