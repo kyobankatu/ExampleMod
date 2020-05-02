@@ -17,6 +17,8 @@ ammo: {
   graphite: {
     speed: 15
     damage: 100
+    splashDamage: 50
+    splashDamageRadius: 10
 
     bulletWidth: 14
     bulletHeight: 18

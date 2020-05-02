@@ -12,7 +12,7 @@ consumes: {
   power: 5
   liquid: {
     liquid: liquid-nitrogen
-    amount: 0.2
+    amount: 0.05
     booster: true
     optional: true
   }

@@ -8,9 +8,8 @@ consumes: {
   power: 0.5
   items: {
     items: [
-      silicon/30
-      titanium/20
-      copper/30
+      silicon/20
+      titanium/10
     ]
   }
 }

@@ -3,7 +3,7 @@ name: Missile Fighter
 description: Shoots a missile and deals area damage.
 speed: 0.5
 flying: true
-health: 75
+health: 200
 rotatespeed: 1
 baseRotateSpeed: 0.8
 engineOffset: 5.5
